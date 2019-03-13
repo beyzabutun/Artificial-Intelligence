@@ -1,3 +1,3 @@
 # Artificial-Intelligence
 
-It includes small code tasks in AI.
+It includes small code samples in AI.
