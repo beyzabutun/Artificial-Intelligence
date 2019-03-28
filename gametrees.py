@@ -16,7 +16,7 @@ def minimax(player,state,depthLeft):
   calls += 1
   if depthLeft == 0:
     return state.value()
-### INSERT YOUR IMPLEMENTATION OF MINIMAX HERE
+
 ### It should be recursively calling 'minimax'.
   if state.applicableActions(player)==[]:
   	return state.value()
@@ -41,7 +41,6 @@ def alphabeta(player,state,depthLeft,alpha,beta):
   calls += 1
   if depthLeft == 0:
     return state.value()
-### INSERT YOUR IMPLEMENTATION OF ALPHABETA HERE
 ### It should be recursively calling 'alphabeta'.
   if state.applicableActions(player)==[]:
   	return state.value()
